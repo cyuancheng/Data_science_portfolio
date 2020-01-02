@@ -6,18 +6,15 @@ This repository containing portfolio of data science projects completed by me fo
 ## Contents
 
 - ### Machine Learning
-
-	- [Finding Donors for CharityML](): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
-	- [Supervised Learning: Finding Donors for CharityML](https://github.com/cyuancheng/Finding-Donors-for-CharityML/blob/master/finding_donors.ipynb): Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
+	- [Is a High Divorce Rate among Celebrities?](https://github.com/cyuancheng/BlogPost_Celebrity_Divorce)(05-2019): Wrangled Wikipedia data; used Logistic Regression and Random Forest to predict celebrities' divorce with 70% accuracy. Gained insight from data that age and age at the first marriage are two key contributors to celebrities' divorce. [blog post](https://medium.com/@cyuancheng/is-a-high-divorce-rate-among-celebrities-b87a9b9bdf28)
+		- [Disaster Response Pipeline](https://github.com/cyuancheng/Disaster-Response-Pipeline)(06-2019): Created ETL and machine learning pipeline from real natural disaster message data. Developed a web app where a relief agent can input a new message to get classification result in a real time.
+		- [Predict Customer Churn](https://github.com/cyuancheng/Sparkify)(08-2019):  Prepossessed, cleaned, and transformed 250 Mb of customer Data from music streaming platform using spark. Developed a predictive model from  feature engineering using \textbf{Random Forest} and \textbf{Gradient Boosting Tree} in Spark MLlib. Feature importance by the model suggested the customer's lifetime with the service is the strongest indicator for churn. [blog post]{https://medium.com/@cyuancheng/use-machine-learning-to-predict-customer-churn-9281cc249c7a}
+	- [Supervised Learning: Finding Donors for CharityML](https://github.com/cyuancheng/Finding-Donors-for-CharityML/blob/master/finding_donors.ipynb)(12-2018): Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
 	- [Unsupervised Learning: Identify Customer Segments](https://github.com/cyuancheng/Identify_Customer_Segments/blob/master/Identify_Customer_Segments.ipynb)(02-2019): Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
 
-	- [Is a High Divorce Rate among Celebrities?](https://github.com/cyuancheng/BlogPost_Celebrity_Divorce)(05-2019): Wrangled Wikipedia data; used Logistic Regression and Random Forest to predict celebrities' divorce with 70% accuracy. Gained insight from data that age and age at the first marriage are two key contributors to celebrities' divorce. [blog post](https://medium.com/@cyuancheng/is-a-high-divorce-rate-among-celebrities-b87a9b9bdf28)
-	- [Disaster Response Pipeline](https://github.com/cyuancheng/Disaster-Response-Pipeline)(06-2019): Created ETL and machine learning pipeline from real natural disaster message data. Developed a web app where a relief agent can input a new message to get classification result in a real time.
-	
 	- [Recommendation system with IBM](https://github.com/cyuancheng/recommendation_with_IBM)(07-2019): Analyzed the interactions that users have with articles on the IBM Watson Studio platform, and made recommendations of articles they will like.
-	
-	- [Predict Customer Churn](https://github.com/cyuancheng/Sparkify)(08-2019):  Prepossessed, cleaned, and transformed 250 Mb of customer Data from music streaming platform using spark. Developed a predictive model from  feature engineering using \textbf{Random Forest} and \textbf{Gradient Boosting Tree} in Spark MLlib. Feature importance by the model suggested the customer's lifetime with the service is the strongest indicator for churn. [blog post]{https://medium.com/@cyuancheng/use-machine-learning-to-predict-customer-churn-9281cc249c7a}
-		- [Identifying Fraud from Enron Email](https://github.com/sajal2692/Training-a-Smartcab-to-Drive): Creating an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal.
+		
+	- [Identifying Fraud from Enron Email](https://github.com/sajal2692/Training-a-Smartcab-to-Drive): Creating an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal.
 	
 
 	
