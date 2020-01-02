@@ -9,10 +9,16 @@ This repository containing portfolio of data science projects completed by me fo
 
 	- [Finding Donors for CharityML](): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
 	- [Supervised Learning: Finding Donors for CharityML](https://github.com/cyuancheng/Finding-Donors-for-CharityML/blob/master/finding_donors.ipynb): Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
-	- [Unsupervised Learning: Creating Customer Segments](https://github.com/cyuancheng/Identify_Customer_Segments/blob/master/Identify_Customer_Segments.ipynb): Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
-	- [Identifying Fraud from Enron Email](https://github.com/sajal2692/Training-a-Smartcab-to-Drive): Creating an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal.
-	- [Is a High Divorce Rate among Celebrities?](https://github.com/cyuancheng/BlogPost_Celebrity_Divorce)(05-16-2019):  Wrangled Wikipedia data; used \textbf{Logistic Regression} and \textbf{Random Forest} to predict celebrities' divorce with 70\% accuracy. Gained insight from data that \textit{age} and \textit{age at the first marriage} are two key contributors to celebrities' divorce. [blog post](https://medium.com/@cyuancheng/is-a-high-divorce-rate-among-celebrities-b87a9b9bdf28)
+	- [Unsupervised Learning: Identify Customer Segments](https://github.com/cyuancheng/Identify_Customer_Segments/blob/master/Identify_Customer_Segments.ipynb)(02-2019): Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
 
+	- [Is a High Divorce Rate among Celebrities?](https://github.com/cyuancheng/BlogPost_Celebrity_Divorce)(05-2019): Wrangled Wikipedia data; used Logistic Regression and Random Forest to predict celebrities' divorce with 70% accuracy. Gained insight from data that age and age at the first marriage are two key contributors to celebrities' divorce. [blog post](https://medium.com/@cyuancheng/is-a-high-divorce-rate-among-celebrities-b87a9b9bdf28)
+	- [Disaster Response Pipeline](https://github.com/cyuancheng/Disaster-Response-Pipeline)(06-2019): Created ETL and machine learning pipeline from real natural disaster message data. Developed a web app where a relief agent can input a new message to get classification result in a real time.
+	
+	- [Recommendation system with IBM](https://github.com/cyuancheng/recommendation_with_IBM)(07-2019): Analyzed the interactions that users have with articles on the IBM Watson Studio platform, and made recommendations of articles they will like.
+	
+	- [Predict Customer Churn](https://github.com/cyuancheng/Sparkify)(08-2019):  Prepossessed, cleaned, and transformed 250 Mb of customer Data from music streaming platform using spark. Developed a predictive model from  feature engineering using \textbf{Random Forest} and \textbf{Gradient Boosting Tree} in Spark MLlib. Feature importance by the model suggested the customer's lifetime with the service is the strongest indicator for churn. [blog post]{https://medium.com/@cyuancheng/use-machine-learning-to-predict-customer-churn-9281cc249c7a}
+		- [Identifying Fraud from Enron Email](https://github.com/sajal2692/Training-a-Smartcab-to-Drive): Creating an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal.
+	
 
 	
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
@@ -25,18 +31,21 @@ This repository containing portfolio of data science projects completed by me fo
 
 	_Tools: NLTK, scikit_
 
+- ### Neuron Network and Deep Learning
+
+ - [Predict Stock Price with Buy or Sell Signal](https://github.com/cyuancheng/Stock_Prediction/blob/master/ETF_QQQ_CrossSignal.ipynb)(09-2019): Built a CNN-LSTM model on stock data and technical indicators to predict market movement with 70% accuracy. This is a capstone project working together with AI enthusiasts of [the Princeton School of AI]{https://www.meetup.com/Princeton-School-of-AI/} in summer 2019. My role in the team is to develop and refine the time-series model using Recurrent Neural Network (RNN).
+
+- [Lawn Weed Detector using Computer Vision]{https://github.com/cyuancheng/Lawn_Weed} (04-2019) Collected and labeled imaging data of common weeds from Google Image, and trained the data using Convolutional Neural Network (CNN) with 95\% accuracy.
+
 - ### Data Analysis and Visualisation
 	- __Python__
-		- [Data-Wrangle-Openstreetmaps-Data](https://github.com/cyuancheng/Data-Wrangle-Openstreetmaps-Data/blob/master/OpenstreetMapData-SB.ipynb): Analysis of walkability of suburbs in Melbourne, Victoria and its implications.
-		- [d3.js](https://github.com/sajal2692/data-science-portfolio/blob/master/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Exploratory Analysis of the passengers onboard RMS Titanic using Pandas and Seaborn visualisations.
-		- [Stock Market Analysis for Tech Stocks](https://github.com/sajal2692/data-science-portfolio/blob/master/Stock%20Market%20Analysis%20for%20Tech%20Stocks.ipynb): Analysis of technology stocks including change in price over time, daily returns, and stock behaviour prediction.
-		- [2016 US General Election Poll Data Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/2016%20General%20Election%20Poll%20Analysis.ipynb): Very simple analysis of 2016 US General Election Poll data.
-		- [911 Calls - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/911%20Calls%20-%20Exploratory%20Analysis.ipynb): Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrates extraction of useful features from different variables.
+		- [Wrangling Openstreetmaps Data using MongoDB](https://github.com/cyuancheng/Data-Wrangle-Openstreetmaps-Data)(05-2015): Used data wrangling techniques, such as assessing the data quality for validity, accuracy, completeness, consistency, and uniformity, to clean and explore the OpenStreetMap (OSM) data in Santa Barbara County, CA, USA by MongoDB.
+		- [Analyzing the NYC subway dataset](https://github.com/cyuancheng/Intro-Data-Science):  Used statistical analysis, machine learning, and MapReduce to discover interesting patterns and trends about the New York City Subway and discovered more people entering NYC Subway in rainy days than that in non-rainy days.
 		
 	_Tools: Pandas, Folium, Seaborn and Matplotlib_
 
 	- __R__ 
-		- [Behavioral Risk Factor Surveillance System(BRFSS) 2013: Exploratory Data Analysis](http://rpubs.com/cyuancheng/ZillowHousing): Exploratory analysis of the BRFSS-2013 data set, focusing on investigating the relationship between education and eating habits, sleep and mental health, and smoking, drinking and general health of a person. 
+		- [Analyzing Real Estate Data | Data Analysis with R](http://rpubs.com/cyuancheng/ZillowHousing) (06-2015): Conducted exploratory data analysis using R to explores the variables, structure, patterns, oddities, and underlying relationships of the residential real estate data and Census data in USA from Zillow housing dataset between 1996 and 2014.
 		
 
 - ### Micro Projects: 
