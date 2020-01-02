@@ -7,8 +7,8 @@ This repository containing portfolio of data science projects completed by me fo
 
 - ### Machine Learning
 	- [Is a High Divorce Rate among Celebrities?](https://github.com/cyuancheng/BlogPost_Celebrity_Divorce)(05-2019): Wrangled Wikipedia data; used Logistic Regression and Random Forest to predict celebrities' divorce with 70% accuracy. Gained insight from data that age and age at the first marriage are two key contributors to celebrities' divorce. [blog post](https://medium.com/@cyuancheng/is-a-high-divorce-rate-among-celebrities-b87a9b9bdf28)
-		- [Disaster Response Pipeline](https://github.com/cyuancheng/Disaster-Response-Pipeline)(06-2019): Created ETL and machine learning pipeline from real natural disaster message data. Developed a web app where a relief agent can input a new message to get classification result in a real time.
-		- [Predict Customer Churn](https://github.com/cyuancheng/Sparkify)(08-2019):  Prepossessed, cleaned, and transformed 250 Mb of customer Data from music streaming platform using spark. Developed a predictive model from  feature engineering using \textbf{Random Forest} and \textbf{Gradient Boosting Tree} in Spark MLlib. Feature importance by the model suggested the customer's lifetime with the service is the strongest indicator for churn. [blog post]{https://medium.com/@cyuancheng/use-machine-learning-to-predict-customer-churn-9281cc249c7a}
+	- [Disaster Response Pipeline](https://github.com/cyuancheng/Disaster-Response-Pipeline)(06-2019): Created ETL and machine learning pipeline from real natural disaster message data. Developed a web app where a relief agent can input a new message to get classification result in a real time.
+	- [Predict Customer Churn](https://github.com/cyuancheng/Sparkify)(08-2019):  Prepossessed, cleaned, and transformed 250 Mb of customer Data from music streaming platform using spark. Developed a predictive model from  feature engineering using \textbf{Random Forest} and \textbf{Gradient Boosting Tree} in Spark MLlib. Feature importance by the model suggested the customer's lifetime with the service is the strongest indicator for churn. [blog post]{https://medium.com/@cyuancheng/use-machine-learning-to-predict-customer-churn-9281cc249c7a}
 	- [Supervised Learning: Finding Donors for CharityML](https://github.com/cyuancheng/Finding-Donors-for-CharityML/blob/master/finding_donors.ipynb)(12-2018): Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
 	- [Unsupervised Learning: Identify Customer Segments](https://github.com/cyuancheng/Identify_Customer_Segments/blob/master/Identify_Customer_Segments.ipynb)(02-2019): Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
 
@@ -16,9 +16,8 @@ This repository containing portfolio of data science projects completed by me fo
 		
 	- [Identifying Fraud from Enron Email](https://github.com/sajal2692/Training-a-Smartcab-to-Drive): Creating an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal.
 	
-
 	
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	_Tools: scikit-learn, Numpy, Scipy, Pandas, Seaborn, Matplotlib_ 
 
 - ### Natural Language Processing
 
@@ -34,6 +33,8 @@ This repository containing portfolio of data science projects completed by me fo
 
 - [Lawn Weed Detector using Computer Vision]{https://github.com/cyuancheng/Lawn_Weed} (04-2019) Collected and labeled imaging data of common weeds from Google Image, and trained the data using Convolutional Neural Network (CNN) with 95\% accuracy.
 
+	_Tools: keras, Tensorflow, Fastai_ 
+	
 - ### Data Analysis and Visualisation
 	- __Python__
 		- [Wrangling Openstreetmaps Data using MongoDB](https://github.com/cyuancheng/Data-Wrangle-Openstreetmaps-Data)(05-2015): Used data wrangling techniques, such as assessing the data quality for validity, accuracy, completeness, consistency, and uniformity, to clean and explore the OpenStreetMap (OSM) data in Santa Barbara County, CA, USA by MongoDB.
